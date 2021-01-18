@@ -10,7 +10,7 @@ int main(int, char*[])
 {
     for(auto i : range(1, 10 + 1))
     {
-        printf("%d ", i);
+        std::printf("%d ", i);
     }
 }
 ```
@@ -30,9 +30,9 @@ Example :
 
 int main(int, char*[])
 {
-    for(auto i : range(1, 10))
+    for(auto i : range(10))
     {
-        printf("%d ", i);
+        std::printf("%d ", i);
     }
 }
 ```
@@ -50,7 +50,7 @@ int main(int, char*[])
 {
     for(auto i : range(0, -10, -1))
     {
-        printf("%d ", i);
+        std::printf("%d ", i);
     }
 }
 ```
