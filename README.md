@@ -19,7 +19,7 @@ Output :
 1 2 3 4 5 6 7 8 9 10 
 ```
 Make sure to enable C++20 in order to be able to use the library :
-```
+```makefile
 $(CXX) -std=c++20 program.cpp -o a.out
 ```
 You can omit the first argument and the range will by default start at 0.
