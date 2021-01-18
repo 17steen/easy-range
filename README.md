@@ -30,7 +30,7 @@ Example :
 
 int main(int, char*[])
 {
-    for(auto i : range(1, 10))
+    for(auto i : range(10))
     {
         printf("%d ", i);
     }
