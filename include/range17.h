@@ -13,11 +13,11 @@ class range
     {
         T val;
         T step;
-        constexpr bool operator==(iterator other) noexcept
+        constexpr bool operator==(iterator other) const noexcept
         {
             return val == other.val;
         }
-        constexpr bool operator!=(iterator other) noexcept
+        constexpr bool operator!=(iterator other) const noexcept
         {
             return !(*this == other);
         }
